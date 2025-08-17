@@ -121,10 +121,6 @@
     @apply bg-background text-foreground;
   }
 }
-.quz-form {
-  & > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-  }
+.quz-form, .get-results-form {
+  @apply space-y-6;
 }

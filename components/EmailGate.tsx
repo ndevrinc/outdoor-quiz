@@ -55,7 +55,7 @@ export const EmailGate: React.FC<EmailGateProps> = ({ onSubmit, isLoading = fals
             </p>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} id="outdoor-quiz-results-form" className="get-results-form">
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                 Business Email Address *
