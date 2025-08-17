@@ -121,3 +121,6 @@
     @apply bg-background text-foreground;
   }
 }
+.quz-form {
+  @apply space-y-6;
+}

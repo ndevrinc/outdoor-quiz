@@ -142,7 +142,7 @@ export const LeadForm: React.FC<LeadFormProps> = ({ onSubmit, onSkip, isLoading 
           </div>
         </div>
 
-        <form onSubmit={handleSubmit} id="outdoor-assessment-quiz" className="quz-form space-y-6">
+        <form onSubmit={handleSubmit} id="outdoor-assessment-quiz" className="quz-form">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
