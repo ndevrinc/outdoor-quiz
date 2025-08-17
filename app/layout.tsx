@@ -9,6 +9,27 @@ export const metadata: Metadata = {
   description:
     "Evaluate your digital platform against the unique challenges facing specialized outdoor and overlanding companies",
   generator: "v0.dev",
+  icons: {
+    icon: [
+      {
+        url: "https://live-ndevr-io.s3.amazonaws.com/uploads/2020/02/favicon.ico",
+        sizes: "32x32",
+        type: "image/x-icon",
+      },
+      {
+        url: "https://live-ndevr-io.s3.amazonaws.com/uploads/2020/02/favicon.ico",
+        sizes: "16x16",
+        type: "image/x-icon",
+      },
+    ],
+    apple: [
+      {
+        url: "https://live-ndevr-io.s3.amazonaws.com/uploads/2020/02/favicon.ico",
+        sizes: "180x180",
+        type: "image/x-icon",
+      },
+    ],
+  },
 }
 
 export default function RootLayout({
