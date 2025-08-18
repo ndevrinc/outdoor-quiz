@@ -97,8 +97,8 @@ export const trackPageView = async (page: string, additionalData?: Record<string
     timestamp: new Date().toISOString(),
   }
 
-  // Log for debugging
-  console.log("Page View:", pageViewData)
+  // Log for debugging (commented out for production)
+  // console.log("Page View:", pageViewData)
 
   // Try to save to database, but don't fail if it doesn't work
   try {
@@ -144,8 +144,8 @@ export const trackEvent = async (eventName: string, eventData?: Record<string, a
     timestamp: new Date().toISOString(),
   }
 
-  // Log for debugging
-  console.log("Event:", fullEventData)
+  // Log for debugging (commented out for production)
+  // console.log("Event:", fullEventData)
 
   // Try to save to database, but don't fail if it doesn't work
   try {
